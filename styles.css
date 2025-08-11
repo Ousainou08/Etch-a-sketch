@@ -1,0 +1,15 @@
+#container {
+  width: 486px;
+  height: 486px;
+  border: 3px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.square {
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: lightgray;
+  transition: background-color 0.3s ease;
+}
