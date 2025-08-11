@@ -2,7 +2,7 @@ const container = document.querySelector('#container');
 const resizeButton = document.getElementById('resize-button');
 const clearButton = document.getElementById('clear-button');
 
-const GRID_SIZE_PX = 486;
+const GRID_SIZE_PX = 520; // Total size of the grid in pixels
 
 function createGrid(n) {
   container.innerHTML = '';
